@@ -226,7 +226,7 @@ return [
 使用`vendor:publish`命令发布配置文件：
 
 ```sh
-php artisan vendor:publish --provider=HuangYi\Filter\FilterServiceProvider
+php artisan vendor:publish --provider="HuangYi\Filter\FilterServiceProvider"
 ```
 
 执行上述命令后，会生成一个`config/filter.php`文件，即为该拓展包的配置文件。
