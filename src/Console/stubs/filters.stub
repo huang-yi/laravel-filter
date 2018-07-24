@@ -1,0 +1,3 @@
+<?php
+
+use HuangYi\Filter\Facades\Filter;
